@@ -2,9 +2,9 @@
 
 V5.2:
 
-Aplicado el parche de Abril de Android.
+Aplicado el parche de seguridad de Abril de Android.
 Implementado para poder reestablecer las estadisticas de la bateria de forma manual.
-Bloqueando sensores para evitar el drenaje excesivo de bateria
+Bloqueando sensores para evitar el drenaje excesivo de bateria.
 Mejoras en el UTouch v1.5. TEST.
 Ajustada la posicion en el setup del sensor de huella.
 Pasando a CAF el boost de la CPU, el anterior daba problemas.
