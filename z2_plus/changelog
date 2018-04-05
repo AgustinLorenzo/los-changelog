@@ -1,0 +1,18 @@
+# Bienvenidos al Changelog de mi ROM:
+
+V5.2:
+
+Aplicado el parche de Abril de Android.
+Implementado para poder reestablecer las estadisticas de la bateria de forma manual.
+Bloqueando sensores para evitar el drenaje excesivo de bateria
+Mejoras en el UTouch v1.5. TEST.
+Ajustada la posicion en el setup del sensor de huella.
+Pasando a CAF el boost de la CPU, el anterior daba problemas.
+Eliminando el boost interactivo.
+Utilizando los Thermal Engine de Oneplus, nos dan mejor rendimiento con altas cargas de trabajo sin disparar tanto las temperaturas.
+Fix para el consumo de bateria despues de haber cerrado la camara.
+Corregidos los problemas con el sensor de huellas, que no hacia el wakeup correctamente.
+Cambiado el link de la aplicacion de Updater de LOS, para que podais ver esto.
+Diversas mejoras en el kernel para mejorar rendimiento y fiabilidad.
+
+
