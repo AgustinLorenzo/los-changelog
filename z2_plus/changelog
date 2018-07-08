@@ -21,6 +21,3 @@ Changelog 28/06/2018:
 - Revertido un commit para bloquear un wakelock en el RIL que hacia que se comportara el mismo de forma erronea.
 - Desctivado el boost interactivo, ya no hace falta.
 - Actualizada la version de CLang a la 7.0.2
-
-
-
