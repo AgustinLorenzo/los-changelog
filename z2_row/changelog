@@ -4,7 +4,7 @@ Changelog 28/06/2018:
 - Actualizado el framework, etc.. de proyectos de LineageOS.
 - Rebase con el tree de zuk-devs rama: lineage-15.1.
 - Actualizado el vendor basados en el movil bardock-pro.
-- Actualizado el kernel a la versión: 3.18.113.
+- Actualizado el kernel a la version: 3.18.113.
 - Corregida la grabacion de video en camara lenta (slowmotion).
 - Reparado el tethering.
 - Reparado el aviso que daba el OTG. Mirar: https://github.com/AgustinLorenzo/BugTracker/issues/9
