@@ -1,23 +1,10 @@
-Changelog 28/06/2018:
+Changelog 27/07/2018:
 
-- Parches de Seguridad: Mayo y Junio.
-- Actualizado el framework, etc.. de proyectos de LineageOS.
-- Rebase con el tree de zuk-devs rama: lineage-15.1.
-- Actualizado el vendor basados en el movil bardock-pro.
-- Actualizado el kernel a la version: 3.18.113.
-- Corregida la grabacion de video en camara lenta (slowmotion).
-- Reparado el tethering.
-- Reparado el aviso que daba el OTG. Mirar: https://github.com/AgustinLorenzo/BugTracker/issues/9
-- Fix para solucionar los tirones que daba la GPU en altas cargas de trabajo.
-- Mejorada la compatiblidad del Bluetooh en los coches.
-- Mejorado el consumo del WiFI en DeepSleep.
-- Ajustes en el brillo del movil.
-- Importado el power profile de ZUI 3.5.
-- Implementado un thermal experimental y eliminado el thermal del Oneplus 3.
-- Actualizada la GCam preestablecida en la ROM por una manual desde la cual se puede contral la ISO y el enfoque. La version que estamos gastando actualmente es: Skulshady GCam 5.1.018 v3.0 Manual.
-- Actualizacion del Toolchain de Linaro a la version 7.3. PD: Actualmente en el Z2 PLUS no se esta gastando ya que el kernel se compila en CLang, pero en el PRO ya que al compilar el kernel en CLang da problemas de audio habra que utilizar un kernel diferente para poder repararlo.
-- Corregido un nombre de un paquete de qualcoom para permitir que se pudiera utilizar en ahorro de energia.
-- Revertido el commit para desativar las Transparent Huge Pages (THP).
-- Revertido un commit para bloquear un wakelock en el RIL que hacia que se comportara el mismo de forma erronea.
-- Desctivado el boost interactivo, ya no hace falta.
-- Actualizada la version de CLang a la 7.0.2
+July patch
+Updated the framework of LineageOS
+Updated kernel to latest version of KronicCore
+Updated code of zuk-devs
+Fixed LED charging.
+Change the thermal-engine to older version of May.
+Enable power profiles.
+Enable call recording
