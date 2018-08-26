@@ -5,7 +5,7 @@ Changelog 26/08/2018:
 - Updated kernel to latest version of Cosmedd.
 - Updated code of zuk-devs.
 - Revised and updated the configuration of the LEDs.
-- Decommonize some files from the common to de device, for reasons of compatibility with the cosmed kernel.
+- Decommonize some files, for reasons of compatibility with the cosmed kernel.
 
 Changelog 27/07/2018:
 
