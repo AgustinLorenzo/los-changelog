@@ -1,10 +1,17 @@
+Changelog 26/08/2018:
+
+- August Security patches
+- Updated the framework of LineageOS
+- Updated kernel to latest version of KronicCore
+- Updated code of zuk-devs
+
 Changelog 27/07/2018:
 
-July patch
-Updated the framework of LineageOS
-Updated kernel to latest version of KronicCore
-Updated code of zuk-devs
-Fixed LED charging.
-Change the thermal-engine to older version of May.
-Enable power profiles.
-Enable call recording
+- July Security patches
+- Updated the framework of LineageOS
+- Updated kernel to latest version of KronicCore
+- Updated code of zuk-devs
+- Fixed LED charging.
+- Change the thermal-engine to older version of May.
+- Enable power profiles.
+- Enable call recording
