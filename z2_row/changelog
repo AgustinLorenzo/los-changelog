@@ -1,10 +1,19 @@
+Changelog 26/08/2018:
+
+- August Security patches.
+- Updated the framework of LineageOS.
+- Updated kernel to latest version of Cosmedd.
+- Updated code of zuk-devs.
+- Revised and updated the configuration of the LEDs.
+- Decommonize some files from the common to de device, for reasons of compatibility with the cosmed kernel.
+
 Changelog 27/07/2018:
 
-July patch
-Updated the framework of LineageOS
-Updated kernel to latest version of KronicCore
-Updated code of zuk-devs
-Fixed LED charging.
-Change the thermal-engine to older version of May.
-Enable power profiles.
-Enable call recording
+- July Security patches.
+- Updated the framework of LineageOS.
+- Updated kernel to latest version of Cosmedd.
+- Updated code of zuk-devs.
+- Fixed LED charging.
+- Change the thermal-engine to older version of May.
+- Enable power profiles.
+- Enable call recording.
