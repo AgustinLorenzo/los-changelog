@@ -16,3 +16,11 @@ Changelog 27/07/2018:
 - Change the thermal-engine to older version of May.
 - Enable power profiles.
 - Enable call recording.
+
+Changelog 30/08/2018:
+
+- Updated the framework of LineageOS.
+- Added to the AutoSMP kernel, kernel module to be able to disconnect cores according to the processor load. By default, it is disabled to activate in the Kernel Auditor or similar in the CPU Hotplug section.
+- Added various battery saving mechanisms in idle states such as: powersave_vias and screenoff_max_freq, this parameter serves to set the resting frequency of the processor cores to the minimum. By default, it is activated.
+
+PD: AutoSMP was added to try to contain the drain of the battery that WhatsApp Web produces, if you spend it activating it will help you. AutoSMP, with the screen off leaves a single core on by default and since the screenoff_maxfreq is set to 307 MHz, the battery consumption is lower.
