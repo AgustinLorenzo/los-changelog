@@ -1,11 +1,23 @@
-Changelog 26/08/2018:
+Changelog 21/10/2018:
 
-- August Security patches.
+- September Security patches.
+- October Security patches.
 - Updated the framework of LineageOS.
-- Updated kernel to latest version of Cosmedd.
-- Updated code of zuk-devs.
-- Revised and updated the configuration of the LEDs.
-- Decommonize some files, for reasons of compatibility with the cosmed kernel.
+- Updated code of zuk-devs
+- Added in Zuk Extras an option to enable o disable AutoSMP Hotplug (Help with the battery drain of the Whatsapp Web in background) this hotplug disconnect cores of CPU when the load of CPU is low also when screen off is off disconnect 3 of 4 cores of the CPU also the frequency drops to 307 MHz if the screenoff_maxfreq is activated, but screenoff_maxfreq is activated by default.
+- Added in Zuk Extras an option to disable hardware buttons and enable software buttons, but this option is under develop
+- Change IO Scheduler from CFQ to Maple.
+- Added to kernel Adreno Idler and Adreno Boost.
+
+NOTE: The options that are changed in Zuk Extras when rebooting is not saved, I have pending to solve it in next versions.
+
+Changelog 30/08/2018:
+
+- Updated the framework of LineageOS.
+- Added to the AutoSMP kernel, kernel module to be able to disconnect cores according to the processor load. By default, it is disabled to activate in the Kernel Auditor or similar in the CPU Hotplug section.
+- Added various battery saving mechanisms in idle states such as: powersave_vias and screenoff_max_freq, this parameter serves to set the resting frequency of the processor cores to the minimum. By default, it is activated.
+
+PD: AutoSMP was added to try to contain the drain of the battery that WhatsApp Web produces, if you spend it activating it will help you. AutoSMP, with the screen off leaves a single core on by default and since the screenoff_maxfreq is set to 307 MHz, the battery consumption is lower.
 
 Changelog 27/07/2018:
 
@@ -17,3 +29,12 @@ Changelog 27/07/2018:
 - Change the thermal-engine to older version of May.
 - Enable power profiles.
 - Enable call recording.
+
+Changelog 26/08/2018:
+
+- August Security patches.
+- Updated the framework of LineageOS.
+- Updated kernel to latest version of Cosmedd.
+- Updated code of zuk-devs.
+- Revised and updated the configuration of the LEDs.
+- Decommonize some files, for reasons of compatibility with the cosmed kernel.
