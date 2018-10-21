@@ -8,6 +8,7 @@ Changelog 21/10/2018:
 - Added in Zuk Extras an option to disable hardware buttons and enable software buttons, but this option is under develop
 - Change IO Scheduler from CFQ to Maple.
 - Added to kernel Adreno Idler and Adreno Boost.
+- Added a pocket mode.
 
 NOTE: The options that are changed in Zuk Extras when rebooting is not saved, I have pending to solve it in next versions.
 
